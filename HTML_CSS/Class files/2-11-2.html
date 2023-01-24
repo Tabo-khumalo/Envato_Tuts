@@ -19,7 +19,133 @@
 
 			<h1>Your Order</h1>
 
+			<form id="order_form">
 
+				<div>
+					<div>
+						<label for="Order_name">Name</label>
+						<input
+							type="text"
+							name="Order_name"
+							id="order_name"
+							placeholder="Your Full Name"
+							autofocus>
+					</div>
+
+					<div>
+						<label for="Order_email">Email</label>
+						<input
+							type="text"
+							name="Order_email"
+							id="order_email"
+							value="Chuck@roundhouse.com"
+							disabled>
+					</div>
+				</div>
+
+				<div>
+					<label for="order_address_1">Address</label>
+					<input type="text" name="Order_address_1" id="order_address_1" placeholder="9 Augusta Street">
+					<input type="text" name="Order_address_2" id="order_address_2" placeholder="Suite 122">
+				</div>
+
+				<div>
+					<div>
+						<label for="order_city">City</label>
+						<input 
+							type="text" 
+							name="order_city" 
+							id="order_city" 
+							placeholder="New Jersey">
+					</div>
+
+					<div>
+						<label for="order_state">State</label>
+						<select name="order_state" id="prder_state">
+							<option value="Alaska">Alaska</option>
+							<option value="Arizona">Arizona</option>
+							<option value="Alabama">Alabama</option>
+							<option value="Arkansas">Arkansas</option>
+						</select>
+					</div>
+
+					<div>
+						<label for="order_zip">ZIP</label>
+						<input 
+							type="text" 
+							name="order_zip" 
+							id="order_zip" 
+							placeholder="726221">
+					</div>
+				</div>
+
+				<div>
+					<label for="order_color">What color samples should we send you?</label>
+
+					<label for="sample_white">
+						<input 
+							type="checkbox" 
+							name="sample_color" 
+							id="sample_white" 
+							value="white" 
+							disabled> White
+					</label>
+
+					<label for="sample_magenta">
+						<input 
+							type="checkbox" 
+							name="sample_color" 
+							id="sample_magenta" 
+							value="magenta" 
+							checked> Magenta
+					</label>
+					
+					<label for="sample_coral">
+						<input 
+							type="checkbox" 
+							name="sample_color" 
+							id="sample_coral" 
+							value="coral"> Coral
+					</label>
+
+					<label for="sample_burgundy">
+						<input 
+							type="checkbox"
+							 name="sample_color" 
+							id="sample_burgundy" 
+							value="burgundy" 
+							checked> Burgundy
+					</label>
+
+					<label for="sample_charcoal">
+						<input 
+							type="checkbox" 
+							name="sample_color" 
+							id="sample_charcoal" 
+							value="charcoal"> Charcoal
+					</label>
+				</div>
+
+				<div>
+					<label >How large is your team?</label>
+
+					<div>
+					<label for=""><input type="radio" name="team_size" id="team_small">1-5 people</label>
+					<input type="radio" name="team_size" id="team_medium" checked>6-10 people
+					<input type="radio" name="team_size" id="team_large">10+ people
+				</div>
+
+				<label for="order_comments">Comments</label>
+
+				<textarea name="order_comments" id="order_comments" cols="30" rows="10"></textarea>
+
+				<div>
+					<input type="checkbox" name="order_specials" id="oder_specials"> Sign up for special offers
+					<button>Place Order</button>
+				</div>
+
+
+			</form>
 
 			<!-- Practice area end -->
 		</section>
