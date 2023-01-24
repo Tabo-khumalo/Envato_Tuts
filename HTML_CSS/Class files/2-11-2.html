@@ -130,9 +130,31 @@
 					<label >How large is your team?</label>
 
 					<div>
-					<label for=""><input type="radio" name="team_size" id="team_small">1-5 people</label>
-					<input type="radio" name="team_size" id="team_medium" checked>6-10 people
-					<input type="radio" name="team_size" id="team_large">10+ people
+					<label for="team_small">
+						<input 
+							type="radio" 
+							name="team_size" 
+							id="team_small" 
+							value="1-5">1-5 people
+					</label>
+					
+
+					<label for="team_medium">
+						<input 
+							type="radio" 
+							name="team_size" 
+							id="team_medium" 
+							value="6-10"
+							checked>6-10 people
+					</label>
+
+					<label for="team_large">
+						<input 
+							type="radio" 
+							name="team_size" 
+							id="team_large" 
+							value="10+">10+ people
+					</label>
 				</div>
 
 				<label for="order_comments">Comments</label>
@@ -140,11 +162,13 @@
 				<textarea name="order_comments" id="order_comments" cols="30" rows="10"></textarea>
 
 				<div>
-					<input type="checkbox" name="order_specials" id="oder_specials"> Sign up for special offers
+					<input 
+						type="checkbox" 
+						name="order_specials" 
+						id="oder_specials"> Sign up for special offers
+
 					<button>Place Order</button>
 				</div>
-
-
 			</form>
 
 			<!-- Practice area end -->
