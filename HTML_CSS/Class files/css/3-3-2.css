@@ -1,0 +1,16 @@
+* {
+    box-sizing: border-box;
+}
+
+form button {
+    background-color: #049B92;
+}
+
+input[type="text"], [type="password"]{
+    background-color: white;
+    border: 1px solid #ccc;
+}
+
+input[disabled]{
+    background-color: #F3F4F5;
+}

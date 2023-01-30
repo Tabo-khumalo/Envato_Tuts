@@ -1,0 +1,19 @@
+* {
+    box-sizing: border-box;
+}
+
+#total {
+    background-color: #142A3C;
+}
+
+#sale {
+    background-color: #215475;
+}
+
+#rental {
+    background-color: #f66B0C;
+}
+
+.card {
+    color: white;
+}
