@@ -1,0 +1,68 @@
+* {
+    box-sizing: border-box;
+}
+
+.wrapper {
+    /* Don't worry about what flex or gap means. */
+    /* It's simply here for demo purposes. */
+    display: flex;
+    gap: 2rem;
+}
+
+.widget {
+    width: 100%;
+    min-width: 250px;
+    max-width: 300px;
+    padding: 2rem;
+    border: 1px solid #DCDEE2;
+    border-radius: 4px;
+}
+
+.widget:hover {
+    border-color: rgba(60, 76, 90, 0.42);
+}
+
+.widget img {
+    width: 4rem;
+}
+
+.main-icon {
+    /* The display property is used for demo purposes. */
+    display: block;
+    margin-bottom: 2rem;
+    /* margin-left: -65px; */
+}
+
+.widget p img {
+    width: 1.25rem;
+}
+
+.widget button img {
+    height: 1rem;
+}
+
+.widget button {
+    padding: 8px 24px;
+    background-color: white;
+    border: 1px solid rgb(60, 76, 90);
+    border-radius: 4px;
+}
+
+.widget h2,
+.widget p {
+    margin: 0;
+}
+
+.widget h2 {
+    /* Notice the collapsing margin */
+    margin: .5rem 0;
+}
+
+.widget p {
+    margin-bottom: 2rem;
+}
+
+.widget p img {
+    /* margin-right: 8px; */
+    margin: 0 8px 0 0;
+}
