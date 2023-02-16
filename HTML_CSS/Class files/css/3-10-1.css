@@ -1,0 +1,27 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Poppins', sans-serif;
+}
+
+form div {
+    margin-bottom: 1rem;
+}
+
+form .btn {
+    display: block;
+    background-color: #7C48BF;
+    color: white;
+    padding: 1rem 2rem;
+    border-radius: 8px;
+    font-weight: bold;
+    text-align: center;
+    text-decoration: none;
+   
+}
+
+form label {
+    display: block;
+}

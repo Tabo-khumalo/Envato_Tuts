@@ -1,0 +1,16 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Poppins', sans-serif;
+}
+
+.plan-features {
+    padding: 0;
+    list-style-image: url(~images/example/green-checkmark.svg);
+}
+
+.plan-features li {
+    margin-bottom: .5rem;
+}

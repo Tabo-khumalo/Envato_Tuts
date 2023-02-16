@@ -1,0 +1,258 @@
+/* Reset*/
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+/*start styling with typography*/
+
+html {
+    font-size: 18px;
+}
+
+body {
+    font-family: 'Poppins' sans-serif;
+    line-height: 1.55;
+    color: rgb(60, 58, 71);
+}
+
+h1 {
+    font-size: 3.15rem;
+    font-weight: 700;
+    letter-spacing: -2px;
+}
+
+h2 {
+    font-size: 1.75rem;
+    font-weight: 300;
+    letter-spacing: -1px;
+    color: rgba(60, 58, 71, 0.8);
+}
+
+h3 {
+    font-size: 2.4rem;
+    font-weight: 700;
+    letter-spacing: -2px;
+    margin-bottom: 2rem;
+}
+
+h3.large {
+    font-size: 3.15rem;
+}
+
+#dark h3 {
+    color: rgb(255, 255, 255);
+}
+
+h4 {
+    font-size: 1rem;
+    font-weight: 700;
+    margin-bottom: 1rem;
+}
+
+p {
+    margin-bottom: 1rem;
+}
+
+p.section-intro {
+    font-size: 1rem;
+    font-weight: 200;
+    letter-spacing: 2px;
+    text-transform: uppercase;
+}
+
+#dark p.section-intro {
+    color: rgba(255, 255, 255, .8);
+}
+
+p.number {
+    font-size: 2.4rem;
+    font-weight: 200;
+    color: rgba(60, 58, 71, .5);
+}
+
+p.large {
+    font-size: 1.75rem;
+    font-weight: 200;
+    letter-spacing: -1px;
+}
+
+a {
+    font-weight: 700;
+    text-decoration: none;
+    color: rgb(159, 118, 87);
+}
+
+a:hover {
+    color: rgb(60, 58, 71);
+}
+
+form input,
+form textarea,
+form button {
+    font-size: 'Poppins' sans-serif;
+    font-size: 18px;
+    line-height: 1.55;
+}
+
+/* container */
+
+.container {
+    width: 85%;
+    margin: 0 auto;
+}
+
+.container.small {
+    width: 60%;
+    max-width: 35rem;
+}
+
+#main-header, 
+section {
+    padding: 13rem 0;
+    text-align: center;
+}
+
+
+#main-header h1 {
+    margin: 7.2rem 0 1rem 0;
+}
+
+#main-header h2 {
+    margin-bottom: 8rem;
+}
+
+.btn {
+    padding: 1.3rem 3.5rem;
+    border: 1px solid rgb(159, 118, 87);
+    font-weight: 70;
+}
+
+.btn:hover {
+    background-color: rgb(60, 58, 71);
+    border-color: rgb(60, 58, 71);
+    color: rgb(255, 255, 255);
+}
+
+/*chair section*/
+
+#our-chairs {
+    background-color: #EFf0EA;
+}
+
+section header {
+    margin-bottom: 3.5rem;
+}
+
+section header h3 {
+    margin-bottom: 1.8rem;
+}
+
+h3 + p {
+    max-width: 35rem;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.gallery {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 3.5rem;
+    margin-bottom: 3.5rem;
+}
+
+.gallery img {
+    max-width: 100%;
+}
+
+.gallery div {
+    text-align: left;
+}
+
+
+/*contact form*/
+
+.dark {
+    background-color: rgb(60, 58, 71);
+    color: white;
+}
+
+.dark p, label {
+    color: rgba(255, 255, 255, .8);
+}
+
+.dark h3 {
+    margin-bottom: 1.8rem;
+}
+
+form div {
+    margin-bottom: 1.8rem;
+}
+
+form label {
+    display: block;
+    text-align: left;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    margin-bottom: .5rem;
+}
+
+form input ,textarea {
+    display: block;
+    width: 100%;
+    padding: 1rem;
+    background-color: rgba(255, 255, 255, 0.1);
+    border: none;
+    color: white;
+    resize: none;
+}
+
+form input:focus, textarea:focus {
+    outline: none;
+    background-color: rgba(255, 255, 255, .2);
+}
+
+form .btn {
+    display: block;
+    width: 100%;
+    background-color: rgba(255, 255, 255, 0.1);
+    border: 1px solid rgba(255, 255, 255, .8);
+    background: transparent;
+    color: rgba(255, 255, 255, 1);
+    cursor: pointer;
+    margin-bottom: 1.8rem;
+}
+
+form .btn:hover {
+    border: 1px solid rgba(255, 255, 255, .8);
+    background-color: rgb(255, 255, 255);
+    color: rgb(60, 58, 71);
+}
+
+.muted {
+    color: rgba(255, 255, 255, .5);
+}
+
+/* company contact */
+
+.social-icons {
+    display: flex;
+    list-style: none;
+    justify-content: center;
+    align-items: center;
+    gap: 2.8rem;
+    margin-top: 7.11rem;
+
+}
+
+/* Footer */
+
+footer {
+    padding: 5rem 0;
+    text-align: center;
+}
+
+
+
+
